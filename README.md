@@ -7,7 +7,7 @@ LR(1)
 
 写报告时发现，代码中在*=、+=等运算中存在小bug，但是没有修。
 
-没有实现逻辑运算中的截断
+没有实现逻辑运算中的截断。摸了。
 
 词法语法分析器（前置大作业）见：
 >https://github.com/watermellye/Compilers_SyntacticAnalysis
