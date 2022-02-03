@@ -1,0 +1,139 @@
+['start', 'declaration_parameter_assign', 'declaration_parameter_suffix', 'M_declaration_parameter', 'M_declaration_parameter_suffix', 'expression_list', 'expression_list_suffix', 'M_function_definition', 'function_parameter_list', 'function_parameter_list_suffix', 'statement_list', 'assignment_expression_list', 'assignment_expression_list_suffix', 'M_selection_statement', 'N_selection_statement', 'N_iteration_statement', 'sstart']
+expression_list
+( identifier number !  $ 
+
+type_specifier
+float int void  
+
+assignment_expression_list_suffix
+,  $ 
+
+selection_statement
+if  
+
+constant_expression
+( ! number identifier  
+
+sstart
+float int void  $ 
+
+N_selection_statement
+  $ 
+
+declaration_parameter_suffix
+,  $ 
+
+assignment_expression
+identifier  
+
+assignment_expression_list
+identifier  $ 
+
+M_function_definition
+  $ 
+
+statement_list
+; while if float identifier void return int {  $ 
+
+expression
+( identifier number !  
+
+second_expression
+( ! number identifier  
+
+declaration_parameter_assign
+=  $ 
+
+expression_list_suffix
+,  $ 
+
+M_selection_statement
+  $ 
+
+first_expression
+( ! number identifier  
+
+function_parameter_list
+float int void  $ 
+
+compound_statement
+{  
+
+start
+float int void  $ 
+
+function_expression
+identifier  
+
+declaration
+float int void  
+
+or_operator
+||  
+
+N_iteration_statement
+  $ 
+
+jump_statement
+return  
+
+M_declaration_parameter
+  $ 
+
+or_bool_expression
+( ! number identifier  
+
+iteration_statement
+while  
+
+assignment_operator
++= &= = -= %= |= ^= *= /=  
+
+second_operator
+/ *  
+
+and_bool_expression
+( ! number identifier  
+
+and_operator
+&&  
+
+function_parameter_list_suffix
+void ,  $ 
+
+first_operator
+- +  
+
+statement
+; while if float identifier void return int {  
+
+third_expression
+( ! number identifier  
+
+bool_operator
+== >= < <= != >  
+
+single_bool_expression
+( ! number identifier  
+
+primary_expression
+( identifier number  
+
+external_declaration
+float int void  
+
+function_definition
+float int void  
+
+declaration_parameter
+identifier  
+
+M_declaration_parameter_suffix
+  $ 
+
+function_parameter
+float int void  
+
+expression_statement
+; identifier  
+

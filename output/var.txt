@@ -1,0 +1,22 @@
+('a', 0) {'type': 'int', 'is_temp': False}
+('b', 0) {'type': 'int', 'is_temp': False}
+('a', 'program') {'type': 'int', 'is_temp': False}
+('b', 'program') {'type': 'int', 'is_temp': False}
+('c', 'program') {'type': 'int', 'is_temp': False}
+('i', 'program') {'type': 'int', 'is_temp': False, 'value': '$7'}
+('j', 'program') {'type': 'int', 'is_temp': False, 'value': 'a'}
+('$1', 'program') {'type': 'int', 'is_temp': True}
+('$2', 'program') {'type': 'int', 'is_temp': True}
+('$3', 'program') {'type': 'int', 'is_temp': True}
+('$4', 'program') {'type': 'int', 'is_temp': True}
+('$5', 'program') {'type': 'int', 'is_temp': True}
+('$6', 'program') {'type': 'int', 'is_temp': True}
+('$7', 'program') {'type': 'int', 'is_temp': True}
+('a', 'demo') {'type': 'int', 'is_temp': False, 'value': '$1'}
+('$1', 'demo') {'type': 'int', 'is_temp': True}
+('$2', 'demo') {'type': 'int', 'is_temp': True}
+('a', 'main') {'type': 'int', 'is_temp': False, 'value': '$2'}
+('b', 'main') {'type': 'int', 'is_temp': False, 'value': 4}
+('c', 'main') {'type': 'int', 'is_temp': False, 'value': 2}
+('$1', 'main') {'type': 'int', 'is_temp': True}
+('$2', 'main') {'type': 'int', 'is_temp': True}
