@@ -1,19 +1,2 @@
-# Compilers_SemanticParser
-编译原理 / 语义分析器
-
-LR(1)
-
-食用方法见报告
-
-写报告时发现，代码中在*=、+=等运算中存在小bug，但是没有修。
-
-没有实现逻辑运算中的截断。摸了。
-
-词法语法分析器（前置大作业）见：
->https://github.com/watermellye/Compilers_SyntacticAnalysis
-
-直接由语法分析器续写而来。语义分析部分核心代码（针对不同产生式的语义动作）共约 160 行（实际上有接近一半用于向文件输出详细信息的代码）。计函数封装共约 240 行。
-
-针对每条产生式执行的语义动作注释见报告17-22页。
-
-
+LR(1)编译器完全体已实现
+跳转链接：https://github.com/watermellye/LR1_compiler
